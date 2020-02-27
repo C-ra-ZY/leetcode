@@ -9,32 +9,39 @@
  * @param {number[]} height
  * @return {number}
  */
-var trap = function(height) {
-	let index = 1,
-		ved = false,
-		temp = 0,
-		total = 0,
-		startV,
-		endV,
-		bottomV;
-	height = [-Infinity, ...height, -Infinity];
-	while (index < height.length - 1) {
-		if (height[index - 1] > height[index] && height[index] <= height[index + 1]) {
-			bottomV = index;
-		} else if (height[index] >= height[index - 1] && height[index] > height[index + 1]) {
-			startV = index;
-		} else if (height[index - 1] < height[index] && height[index] >= height[index + 1]) {
-			if (startV) {
-				endV = index;
-				let top = Math.min(height[startV], height[endV]);
-				height.slice(startV + 1, endV - 1).forEach((e) => {
-					total += top - e;
-				});
-			}
+var trap = function(heights) {
+	function calc(arr) {
+		if (arr.length < 3) {
+			return 0;
 		}
-		index++;
+		let temp = 0,
+			base = Math.min(arr[0], arr[arr.length - 1]),
+			index = 1;
+		while (index < arr.length - 1) {
+			temp += base - arr[index];
+		}
+		return temp;
 	}
-	return total;
+
+	function rec(arr) {
+		let highest = Math.max.apply(null, arr);
+		let temp = 0;
+		let leftArr, rightArr;
+		temp += calc(arr.slice([arr.indexOf(highest)], arr.lastIndexOf[highest] + 1));
+
+		
+
+
+		leftArr = arr.slice(0, arr.indexOf(highest));
+		rightArr = arr.slice(arr.lastIndexOf(highest) + 1);
+		if (highestIndexes[0] !== 0) {
+			temp += trap(heights.slice(0, highestIndexes[0]));
+		}
+		if (highestIndexes[highestIndexes.length - 1] !== heights.length - 1) {
+			temp += trap(heights.slice(highestIndexes[highestIndexes.length - 1]));
+		}
+		return temp;
+	}
 };
 trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]);
 // @lc code=end

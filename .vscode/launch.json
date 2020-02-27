@@ -272,6 +272,15 @@
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}\\./39.组合总和.js",
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "接雨水",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}\\./42.接雨水.js",
     }
   ]
 }
