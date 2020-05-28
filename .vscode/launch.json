@@ -4,283 +4,268 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "第k个排列",
+      "program": "${workspaceFolder}/60.第k个排列.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "螺旋矩阵-ii",
+      "program": "${workspaceFolder}/59.螺旋矩阵-ii.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "跳跃游戏",
+      "program": "${workspaceFolder}/55.跳跃游戏.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "最大子序和",
+      "program": "${workspaceFolder}/53.最大子序和.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "螺旋矩阵",
+      "program": "${workspaceFolder}/54.螺旋矩阵.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
 
     {
       "type": "node",
       "request": "launch",
       "name": "两数相加",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\2.两数相加.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "最长回文子串",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./Untitled-1.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./Untitled-1.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "z-字形变换",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./6.z-字形变换.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./6.z-字形变换.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "整数反转",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./7.整数反转.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./7.整数反转.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "字符串转换整数",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./8.字符串转换整数-atoi.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./8.字符串转换整数-atoi.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "回文数",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./9.回文数.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./9.回文数.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "正则表达式匹配",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./10.正则表达式匹配.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./10.正则表达式匹配.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "盛最多水的容器",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./11.盛最多水的容器.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./11.盛最多水的容器.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "整数转罗马数字",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./12.整数转罗马数字.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./12.整数转罗马数字.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "罗马数字转整数",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./13.罗马数字转整数.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./13.罗马数字转整数.js"
       // "args": ["cbbd"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "最长公共前缀",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./14.最长公共前缀.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./14.最长公共前缀.js"
       // "args": ["cbbd"]
-    },{
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "三数之和",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./15.三数之和.js",
-    },{
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./15.三数之和.js"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "最接近的三数之和",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./16.最接近的三数之和.js",
-    },{
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./16.最接近的三数之和.js"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "电话号码的字母组合",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./17.电话号码的字母组合.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./17.电话号码的字母组合.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "四数之和",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./18.四数之和.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./18.四数之和.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "删除链表的倒数第n个节点",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./19.删除链表的倒数第n个节点.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./19.删除链表的倒数第n个节点.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "有效的括号",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./20.有效的括号.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./20.有效的括号.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "合并k个排序链表",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./23.合并k个排序链表.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./23.合并k个排序链表.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "两两交换链表中的节点",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./24.两两交换链表中的节点.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./24.两两交换链表中的节点.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "k-个一组翻转链表",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./25.k-个一组翻转链表.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./25.k-个一组翻转链表.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "移除元素",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./27.移除元素.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./27.移除元素.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "两数相除",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./29.两数相除.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./29.两数相除.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "串联所有单词的子串",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./30.串联所有单词的子串.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./30.串联所有单词的子串.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "在排序数组中查找元素的第一个和最后一个位置",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./34.在排序数组中查找元素的第一个和最后一个位置.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./34.在排序数组中查找元素的第一个和最后一个位置.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "搜索插入位置",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./35.搜索插入位置.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./35.搜索插入位置.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "有效的数独",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./36.有效的数独.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./36.有效的数独.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "解数独",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./37.解数独.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./37.解数独.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "外观数列",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./38.外观数列.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./38.外观数列.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "组合总和",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./39.组合总和.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./39.组合总和.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "接雨水",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}\\./42.接雨水.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./42.接雨水.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "跳跃游戏-ii",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\./45.跳跃游戏-ii.js"
     }
   ]
 }
