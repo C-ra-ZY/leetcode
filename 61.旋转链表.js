@@ -20,7 +20,7 @@
 var rotateRight = function (head, k) {
   console.log(JSON.stringify(head));
   let storedHead = head;
-  if (!head) {
+  if (head === null || head.next === null) {
     return storedHead;
   }
   let index = 0;
