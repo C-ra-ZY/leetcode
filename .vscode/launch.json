@@ -7,6 +7,13 @@
 		{
 			"type": "node",
 			"request": "launch",
+			"name": "不同的子序列",
+			"program": "${workspaceFolder}/115.不同的子序列.js",
+			"skipFiles": ["<node_internals>/**"]
+		},
+		{
+			"type": "node",
+			"request": "launch",
 			"name": "鸡蛋掉落",
 			"program": "${workspaceFolder}/887.鸡蛋掉落.js",
 			"skipFiles": ["<node_internals>/**"]
